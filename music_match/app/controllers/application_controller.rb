@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   
   def index
-    render text: 'HELLO'
+    render "layouts/application.html.erb"
   end
   
 end
